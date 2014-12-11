@@ -67,6 +67,10 @@ li {
 	padding-bottom: 10px;
 }
 
+.sidebar li {
+	line-height: 20px;
+}
+
 .filter, .about, .subscribe {
 	margin-bottom: 30px;
 }
@@ -92,6 +96,10 @@ li {
 	color: #999;
 }
 
+.content {
+	display: inline-block;
+}
+
 .gallery {
 	width: 70%;
 }
@@ -111,4 +119,10 @@ li {
 .gallery p {
 	line-height: 0;
 	color: #278998;
+}
+
+.footer {
+	background-color: #2d3033;
+	text-align: center;
+	color: #a5a6a7;
 }
