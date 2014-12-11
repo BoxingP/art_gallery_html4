@@ -5,6 +5,7 @@ body, html {
 	height: 100%;
 	font: 13px Helvetica, arial, freesans, clean, sans-serif;
 	background-color: #f7f7f7;
+	color: #585a5b;
 }
 
 ul {
@@ -15,13 +16,17 @@ li {
 	list-style: none;
 }
 
-.header, .gallery, .footer, .content {
+.header, .footer, .content {
 	padding: 20px 8%;
 }
 
 .header {
 	background-color: #278998;
 	color: white;
+}
+
+.header p {
+	color: #a3dee8;
 }
 
 .nav {
@@ -85,4 +90,25 @@ li {
 	border-radius: 4px;
 	padding: 4px;
 	color: #999;
+}
+
+.gallery {
+	width: 70%;
+}
+
+.gallery li {
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.gallery img{
+	width: 150px;
+	height: 200px;
+}
+
+.gallery p {
+	line-height: 0;
+	color: #278998;
 }
