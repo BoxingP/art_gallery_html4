@@ -1,6 +1,6 @@
-#HTML5 New Features
+##HTML5 New Features
 
-###HTML5 Class
+###HTML5 Benefit
   - Semantic
   - Full CSS3 support
   - Local storage
@@ -31,7 +31,8 @@
 <link rel="stylesheet" href="style.css">
 ```
 
-###HTML5 Tag
+##HTML5 Tag
+
   - Section
   - Header
   - Footer
@@ -76,3 +77,29 @@ a unit of content, optionally with a caption, that is self-contained, that is ty
 ```sh
 <time itemprop="datePublished" datetime="2009-10-09">3 days ago</time>
 ```
+
+##Tips
+
+####div & section
+  - div has no semantic meaning, section does
+  - div usually is used as a wrapper for styling
+section help construct a document outline, usually contains a heading
+
+####section & article
+  - section forms part of something else, article is its own thing
+  - A general rule is that section is appropriate only if the element's contents would be listed explicitly in the document's outline
+
+####aside
+  - aside within article, aside should be related to that article
+  - aside outside article, aside should be specifically related to aside
+
+####header
+  - don't overuse header, if your header element only contains a single heading element, leave out the header
+
+####figure
+  - not every image is figure, figure is typically referenced as a single unit from the main flow of the document
+  - figure can be more than an image
+
+##Reference
+  * [w3](http://www.w3.org/TR/2014/REC-html5-20141028/sections.html)
+  * [html5doctor](http://html5doctor.com/)
