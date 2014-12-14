@@ -7,6 +7,7 @@
   - Local DB
   - Audio，Video
   - 2D/3D graphics
+  - SEO
 
 ###HTML5 Element
   - Doctype
