@@ -3,140 +3,179 @@
 <head>
     <meta charset="UTF-8">
     <title>Art gallery exercise</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="header">
-    <h1>Art Gallery</h1>
+    <header class="header">
+        <h1>Art Gallery</h1>
+        <p>The finest art in all of the world</p>
+    </header>
 
-    <p>The finest art in all of the world</p>
-</header>
-
-
-<main>
     <nav class="nav">
-        <article><a href="#gallery">Gallery</a></article>
-        <article><a href="#about">About</a></article>
-        <article><a href="#contact">Contact</a></article>
+        <ul>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>    
+        </ul>
     </nav>
 
     <div class="content">
         <aside class="sidebar">
-            <section class="filter">
+            <article class="filter">
                 <h3>Filter</h3>
-                <article><a href="#">Recently Added</a></article>
-                <article><a href="#">Recently Updated</a></article>
-                <article><a href="#">Discontinued</a></article>
-            </section>
-            <section class="about" id="about">
+                <nav>
+                    <ul>
+                        <li><a href="#">Recently Added</a></li>
+                        <li><a href="#">Recently Updated</a></li>
+                        <li><a href="#">Discontinued</a></li>
+                    </ul>
+                </nav>
+            </article>
+            <article class="about" id="about">
                 <h3>About</h3>
-
-                <p>This is the art gallery for the Resi workshop, which help you to understand html5.</p>
-                <a href="#" class="read-more">Read more</a>
-            </section>
-            <section class="subscribe">
+                <section>
+                    <p>This is the art gallery for the Resi workshop, which help you to understand html5.</p>
+                    <a href="#" class="read-more">Read more</a>
+                </section>
+            </article>
+            <article class="subscribe">
                 <h3>Subscribe</h3>
-
-                <p>Sign up now to get updates when new items are added.</p>
-
-                <form>
-                    <input type="text" value="Enter your email..."/>
-                </form>
-            </section>
+                <section>
+                    <p>Sign up now to get updates when new items are added.</p>
+                    <form>
+                        <input type="text" value="Enter your email..."/>
+                    </form>
+                </section>
+            </article>
         </aside>
 
-        <section class="gallery" id="gallery">
+        <main class="gallery" id="gallery">
             <h2>The Gallery</h2>
             <article>
-                <img src="http://www.artmonthly.org.au/images/artnotes/AMN_5064_l.jpg">
-                <h4>Lorene Taurerewa</h4>
-
-                <p>Published at 11/12/2014</p>
+                <figure>
+                    <img src="//www.artmonthly.org.au/images/artnotes/AMN_5064_l.jpg">
+                    <figcaption>
+                        <h4>Lorene Taurerewa</h4>
+                        <p>Published at <time datetime="2014-12-11">11/12/2014</time></p>
+                    </figcaption>
+                </figure>
             </article>
 
             <article>
-                <img src="http://smallworksgallery.com.au/wp-content/gallery/lorene-taurewera_1/16.jpg">
-                <h4>Lorene Taurerewa</h4>
-
-                <p>Published at 11/12/2014</p>
+                <figure>
+                    <img src="//smallworksgallery.com.au/wp-content/gallery/lorene-taurewera_1/16.jpg">
+                    <figcaption>
+                        <h4>Lorene Taurerewa</h4>
+                        <p>Published at <time datetime="2014-12-11">11/12/2014</time></p>
+                    </figcaption>
+                </figure>
             </article>
 
             <article>
-                <img src="http://3.bp.blogspot.com/-UYv5CVVvCTk/Ul9ZIc9ugoI/AAAAAAAAAlk/7GT85wuRPc0/s1600/DSC01347n.jpg">
-                <h4>Lorene Taurerewa</h4>
-
-                <p>Published at 11/12/2014</p>
+                <figure>
+                    <img src="//3.bp.blogspot.com/-UYv5CVVvCTk/Ul9ZIc9ugoI/AAAAAAAAAlk/7GT85wuRPc0/s1600/DSC01347n.jpg">
+                    <figcaption>
+                        <h4>Lorene Taurerewa</h4>
+                        <p>Published at <time datetime="2014-12-11">11/12/2014</time></p>
+                    </figcaption>
+                </figure>
             </article>
 
             <article>
-                <img src="http://3.bp.blogspot.com/-n3o56MiIaBs/Ul9ZHzax7MI/AAAAAAAAAlg/7D8TAOwkJuI/s640/DSC01297mn.jpg">
-                <h4>Lorene Taurerewa</h4>
-
-                <p>Published at 11/12/2014</p>
+                <figure>
+                    <img src="//3.bp.blogspot.com/-n3o56MiIaBs/Ul9ZHzax7MI/AAAAAAAAAlg/7D8TAOwkJuI/s640/DSC01297mn.jpg">
+                    <figcaption>
+                        <h4>Lorene Taurerewa</h4>
+                        <p>Published at <time datetime="2014-12-11">11/12/2014</time></p>
+                    </figcaption>
+                </figure>
             </article>
 
             <article>
-                <img src="http://3.bp.blogspot.com/-UYv5CVVvCTk/Ul9ZIc9ugoI/AAAAAAAAAlk/7GT85wuRPc0/s640/DSC01347n.jpg">
-                <h4>Lorene Taurerewa</h4>
-
-                <p>Published at 11/12/2014</p>
+                <figure>
+                    <img src="//3.bp.blogspot.com/-UYv5CVVvCTk/Ul9ZIc9ugoI/AAAAAAAAAlk/7GT85wuRPc0/s640/DSC01347n.jpg">
+                    <figcaption>
+                        <h4>Lorene Taurerewa</h4>
+                        <p>Published at <time datetime="2014-12-11">11/12/2014</time></p>
+                    </figcaption>
+                </figure>
             </article>
 
             <article>
-                <img src="http://4.bp.blogspot.com/-9HlOM-iWxj4/Ul9aeOLOkwI/AAAAAAAAAl0/kk_IFbBeNe8/s640/DSC01333+copy.jpg">
-                <h4>Lorene Taurerewa</h4>
-
-                <p>Published at 11/12/2014</p>
+                <figure>
+                    <img src="//4.bp.blogspot.com/-9HlOM-iWxj4/Ul9aeOLOkwI/AAAAAAAAAl0/kk_IFbBeNe8/s640/DSC01333+copy.jpg">
+                    <figcaption>
+                        <h4>Lorene Taurerewa</h4>
+                        <p>Published at <time datetime="2014-12-11">11/12/2014</time></p>
+                    </figcaption>
+                </figure>
             </article>
 
             <article>
-                <img src="http://3.bp.blogspot.com/-SYJayvAN5_M/Ul9d2JT-amI/AAAAAAAAAmI/YVUgkp5qgJo/s640/DSC00424+copy.jpg">
-                <h4>Lorene Taurerewa</h4>
-
-                <p>Published at 11/12/2014</p>
+                <figure>
+                    <img src="//3.bp.blogspot.com/-SYJayvAN5_M/Ul9d2JT-amI/AAAAAAAAAmI/YVUgkp5qgJo/s640/DSC00424+copy.jpg">
+                    <figcaption>
+                        <h4>Lorene Taurerewa</h4>
+                        <p>Published at <time datetime="2014-12-11">11/12/2014</time></p>
+                    </figcaption>
+                </figure>
             </article>
 
             <article>
-                <img src="http://2.bp.blogspot.com/-omlShUTRlCA/Ul9hisYx57I/AAAAAAAAAms/ALJX4UmocLY/s640/DSC00965.jpg">
-                <h4>Lorene Taurerewa</h4>
-
-                <p>Published at 11/12/2014</p>
+                <figure>
+                    <img src="//2.bp.blogspot.com/-omlShUTRlCA/Ul9hisYx57I/AAAAAAAAAms/ALJX4UmocLY/s640/DSC00965.jpg">
+                    <figcaption>
+                        <h4>Lorene Taurerewa</h4>
+                        <p>Published at <time datetime="2014-12-11">11/12/2014</time></p>
+                    </figcaption>
+                </figure>
             </article>
 
             <article>
-                <img src="http://taurerewa.com/images/drawings08/Sensible%20World/440x500/9.jpg">
-                <h4>Lorene Taurerewa</h4>
-
-                <p>Published at 11/12/2014</p>
+                <figure>
+                    <img src="//taurerewa.com/images/drawings08/Sensible%20World/440x500/9.jpg">
+                    <figcaption>
+                        <h4>Lorene Taurerewa</h4>
+                        <p>Published at <time datetime="2014-12-11">11/12/2014</time></p>
+                    </figcaption>
+                </figure>
             </article>
 
             <article>
-                <img src="http://www.artinnewyorkcity.com/wp-content/uploads/2012/01/11ny.jpg">
-                <h4>Lorene Taurerewa</h4>
-
-                <p>Published at 11/12/2014</p>
+                <figure>
+                    <img src="//www.artinnewyorkcity.com/wp-content/uploads/2012/01/11ny.jpg">
+                    <figcaption>
+                        <h4>Lorene Taurerewa</h4>
+                        <p>Published at <time datetime="2014-12-11">11/12/2014</time></p>
+                    </figcaption>
+                </figure>
             </article>
 
             <article>
-                <img src="http://1.bp.blogspot.com/-24JUEBfwxzY/UKkND45vMKI/AAAAAAAAAVU/7XqgymTJLpY/s1600/1.+watercolor+on+paper%252C+40in+x+30in%252C+2011.jpg">
-                <h4>Lorene Taurerewa</h4>
-
-                <p>Published at 11/12/2014</p>
+                <figure>
+                    <img src="//1.bp.blogspot.com/-24JUEBfwxzY/UKkND45vMKI/AAAAAAAAAVU/7XqgymTJLpY/s1600/1.+watercolor+on+paper%252C+40in+x+30in%252C+2011.jpg">
+                    <figcaption>
+                        <h4>Lorene Taurerewa</h4>
+                        <p>Published at <time datetime="2014-12-11">11/12/2014</time></p>
+                    </figcaption>
+                </figure>
             </article>
 
             <article>
-                <img src="http://www.thisisnofantasy.com/lib/hgg-news/Lorene%20Taurerewa%20watercolour%2020%20blog.jpg">
-                <h4>Lorene Taurerewa</h4>
-
-                <p>Published at 11/12/2014</p>
+                <figure>
+                    <img src="//www.thisisnofantasy.com/lib/hgg-news/Lorene%20Taurerewa%20watercolour%2020%20blog.jpg">
+                    <figcaption>
+                        <h4>Lorene Taurerewa</h4>
+                        <p>Published at <time datetime="2014-12-11">11/12/2014</time></p>
+                    </figcaption>
+                </figure>
             </article>
-        </section>
+        </main>
     </div>
-</main>
 
-<footer class="footer" id="contact">
-    <p>By Resi Team</p>
-</footer>
+    <footer class="footer" id="contact">
+        <p>By Resi Team</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>

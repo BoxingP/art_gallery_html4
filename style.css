@@ -35,7 +35,7 @@ li {
 	margin-right: 8%;
 }
 
-.nav article {
+.nav li {
 	display: block;
 	float: left;
 	margin-left: 15px;
@@ -47,7 +47,7 @@ li {
 	background-color: #f7f7f7;
 }
 
-.nav article a {
+.nav li a {
 	color: #278998;
 	text-decoration: none;
 }
@@ -71,7 +71,7 @@ li {
 	line-height: 20px;
 }
 
-.filter, .about, .subscribe {
+.sidebar article {
 	margin-bottom: 30px;
 }
 
@@ -102,6 +102,10 @@ li {
 
 .gallery {
 	width: 70%;
+}
+
+.gallery figure {
+	margin: 0;
 }
 
 .gallery article {
